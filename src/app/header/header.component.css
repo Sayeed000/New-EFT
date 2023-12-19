@@ -1,0 +1,47 @@
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000100;
+    height: 40px;
+}
+
+#links{
+    flex-grow: 1;
+    display: flex;
+    gap: 10px;
+    justify-content:center;
+    color:#fff;
+    padding: 10px;
+}
+
+#logo img {
+    width: 50px; 
+    height: auto;
+    cursor: pointer;
+}
+
+#logo{
+    color:#fff;
+    padding: 10px;
+
+}
+#userphoto{
+    justify-content:right;
+    color:#fff;
+    padding: 10px;
+}
+
+#userphoto img {
+    width: 30px; 
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#user {
+    justify-content:right;
+    color:#fff;
+    padding: 10px;
+}

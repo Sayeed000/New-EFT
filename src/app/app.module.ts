@@ -9,6 +9,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { OutwardModuleComponent } from './outward-module/outward-module.component';
 import { InwardModuleComponent } from './inward-module/inward-module.component';
 import { AdminComponent } from './admin/admin.component';
+import { LoginPageComponent } from './login-page/login-page.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { AdminComponent } from './admin/admin.component';
     OutwardModuleComponent,
     InwardModuleComponent,
     AdminComponent,
+    LoginPageComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
